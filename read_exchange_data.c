@@ -13,7 +13,6 @@ float clPrc_get(char * ex, char *fc){
 	strcat(exchangeName, "/");
 	strcat(exchangeName, ex);
 	strcat(exchangeName, ".txt");
-//	printf("%s\n", exchangeName);
 	exchangeFile = fopen(exchangeName, "r");
 
 	while(fgets(record, 20, exchangeFile)) {

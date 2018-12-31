@@ -1,4 +1,4 @@
-fc price
+fc price prev_cp
 AF 0.365 1.265
 06 1.256 2.368
 RT 8.69 5.698
